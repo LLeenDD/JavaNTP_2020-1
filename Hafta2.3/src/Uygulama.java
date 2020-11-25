@@ -20,7 +20,7 @@ public class Uygulama {
 	public void Kosinus(double a, double b, double aci){
 		//Math.cos(Radyan): Derece cinsinden degildir
 		double aciRadyan=Math.toRadians(aci);
-		double sonuc=Math.pow(a, 2)+ b*b-(2*a*b*Math.cos(aciRadyan));
+		double sonuc=Math.sqrt(Math.pow(a, 2)+ b*b-(2*a*b*Math.cos(aciRadyan)));
 		System.out.println("3.kenar uzunlugu cos teoremi ile: "+ sonuc);
 	}
 
